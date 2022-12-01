@@ -1,0 +1,6 @@
+{
+  "name": "module-examples",
+  "type": "module",
+  "main": "./main.js",
+  "dependencies": {}
+}
