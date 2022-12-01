@@ -1,0 +1,1 @@
+# class-17-typescript-examples
