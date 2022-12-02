@@ -1,8 +1,6 @@
-// TODO: Export both variables
+export const PI = Math.PI;
 
-const PI = Math.PI;
-
-let recipe = {
+export let recipe = {
   ingredients: ["Bisquick", "cheddar", "milk", "ground cayenne", "garlic salt"],
   temperature: 350,
   minutes: 12,

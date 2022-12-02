@@ -1,6 +1,5 @@
-// TODO: Import both variables from data.js
-// TODO: Import the function from funcs.js
-
+import { PI, recipe } from './data.js';
+import isEven from './funcs.js';
 
 console.log(PI);
 console.log(recipe.temperature);
