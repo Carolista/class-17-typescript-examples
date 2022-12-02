@@ -1,17 +1,14 @@
-// TODO: export the Automobile class as default
-class Automobile {
+export default class Automobile {
   
   // Type each property - do NOT use let keyword
   year: number;
   make: string;
   model: string;
-  features: string[];
 
   constructor(year: number, make: string, model: string) {
     this.year = year;
     this.make = make;
     this.model = model;
-    this.features = [];
   }
 
   printDetails(vehicle: string): void {
@@ -25,8 +22,7 @@ interface Features {
   misc?: string[]
 }
 
-// TODO: export the Truck class
-class Truck extends Automobile implements Features {
+export class Truck extends Automobile implements Features {
   cabStyle: string;
   engine: string;
 
