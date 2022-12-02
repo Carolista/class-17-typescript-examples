@@ -3,28 +3,29 @@ interface Book {
   author: string;
   numPages: number;
   series?: string;
+  format?: string;
 }
 
-// TODO: assign Book as the type for currentBook
-let currentBook = {
+let currentBook: Book = {
   title: "How To Be an Antiracist",
   author: "Ibram X. Kendi",
   numPages: 238,
 }
 
-// TODO: assign Book as the type for lastBook
-// TODO: correct the error by adding the missing property with the value 362
-let lastBook = {
+let lastBook: Book = {
   title: "Harry Potter and the Prisoner of Azkaban",
   author: "J. K. Rowling",
+  numPages: 362,
   series: "Harry Potter",
 }
 
-// TODO: assign Book as the type for lastBook
-// TODO: correct the error by adding an optional property 'format' to the interface definition
-let futureBook = {
+let futureBook: Book = {
   title: "Hidden Figures",
   author: "Margot Lee Shetterly",
   numPages: 271,
   format: "hardcover",
 }
+
+console.log(currentBook.title);
+console.log(lastBook.title);
+console.log(futureBook.title);
